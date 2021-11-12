@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Make a new form</title>
+</head>
+<body>
+	<center><p style="font-size:50px ">STUDENT INFORMATION </p></center>
+	<center><fieldset style="height:300px;width: 500px;background-color:#00ffff">
+
+<form>
+	<datalist id="name1">
+		<option value="mainul">mainul</option>
+		<option value="islam">islam</option>
+		<option value="ishraf">ishraf</option>
+
+	</datalist>
+	<b>First Name</b> :&nbsp&nbsp<input type="text" name="text1"  size="30" list="name1" placeholder="username"required pattern="[a-z]+"><br/><br/>
+	<b>Last Name</b> :&nbsp&nbsp<input type="text" name="text2" size="30" placeholder="lastname"required pattern="[a-z]+"><br/><br/>
+	<b>Password</b> :&nbsp&nbsp&nbsp<input type="Password" name="pass" size="30" placeholder="Password" required pattern="[0-9]+"><br/><br/>
+	<b>Gender:</b><input type="radio" name="male" value="male">Male
+	               <input type="radio" name="female" value="female" >female
+                    <input type="radio" name="other" value="other">other<br/><br/>
+     <b>Subject:</b><input type="checkbox" name="che" value="checkbox"> BBA  
+                    <input type="checkbox" name="che1" value="checkbox1"> MBA 
+                     <input type="checkbox" name="che2" value="checkbox2"> MSC  <br/><br/>
+                     <B>Department</B>
+                     <select name="dep">
+                     	<option>CSE</option>
+                     	<option>EEE</option>
+                     	<option>EEE</option>
+                     </select>     <br/><br/>      
+                  <input type="submit" name="submit">
+                  <input type="reset" name="reset">
+</form>
+</fieldset></center>
+</body>
+</html>
